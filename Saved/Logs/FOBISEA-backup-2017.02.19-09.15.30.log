@@ -1,0 +1,689 @@
+﻿Log file open, 02/19/17 09:00:35
+LogInit:Display: Running engine for game: FOBISEA
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(30868414) SRandInit(30868414).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075943
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.19-17.00.36:285][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.19-17.00.36:285][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.19-17.00.36:296][  0]LogInit: Computer: DESKTOP-23JBB1O
+[2017.02.19-17.00.36:296][  0]LogInit: User: NirvikBaruah
+[2017.02.19-17.00.36:296][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.19-17.00.36:296][  0]LogInit: High frequency timer resolution =3.621146 MHz
+[2017.02.19-17.00.36:296][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.02.19-17.00.36:296][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.19-17.00.36:296][  0]LogMemory: Process Physical Memory: 264.18 MB used, 264.18 MB peak
+[2017.02.19-17.00.36:296][  0]LogMemory: Process Virtual Memory: 262.56 MB used, 262.56 MB peak
+[2017.02.19-17.00.36:296][  0]LogMemory: Physical Memory: 1689.98 MB used,  6443.14 MB free, 8133.12 MB total
+[2017.02.19-17.00.36:296][  0]LogMemory: Virtual Memory: 676.14 MB used,  6443.14 MB free, 134217728.00 MB total
+[2017.02.19-17.00.36:316][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.19-17.00.36:894][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.19-17.00.36:910][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 570' (Feature Level 11_0)
+[2017.02.19-17.00.36:910][  0]LogD3D11RHI:       1227/0/2816 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.02.19-17.00.36:911][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.19-17.00.36:911][  0]LogD3D11RHI:       0/0/4066 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.19-17.00.36:911][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.19-17.00.36:914][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.19-17.00.36:914][  0]LogD3D11RHI:     GPU DeviceId: 0x1086 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.19-17.00.36:914][  0]LogWindows: EnumDisplayDevices:
+[2017.02.19-17.00.36:914][  0]LogWindows:    0. 'NVIDIA GeForce GTX 570' (P:1 D:1)
+[2017.02.19-17.00.36:914][  0]LogWindows:    1. 'NVIDIA GeForce GTX 570' (P:0 D:0)
+[2017.02.19-17.00.36:914][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.02.19-17.00.36:914][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 570
+[2017.02.19-17.00.36:914][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.02.19-17.00.36:914][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.02.19-17.00.36:914][  0]LogRHI: Texture pool is 859 MB (70% of 1227 MB)
+[2017.02.19-17.00.36:924][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.02.19-17.00.36:924][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.19-17.00.36:943][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.02.19-17.00.36:943][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../../Users/Nirvik Baruah/FOBISEA/Intermediate/Shaders/WorkingDirectory/3280/).
+[2017.02.19-17.00.36:943][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nirvik Baruah/AppData/Local/Temp/UnrealShaderWorkingDir/19BDAE3640421275AE4E5C98B4CBDDE4/'.
+[2017.02.19-17.00.36:943][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.19-17.00.37:935][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.19-17.00.37:992][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.19-17.00.38:049][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.19-17.00.38:106][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.19-17.00.38:164][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.19-17.00.38:221][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.19-17.00.38:278][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.19-17.00.38:334][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.19-17.00.38:382][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.19-17.00.38:437][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.19-17.00.38:492][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.19-17.00.38:547][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.19-17.00.38:603][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.19-17.00.38:658][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.19-17.00.38:713][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.19-17.00.38:823][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.19-17.00.38:823][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.19-17.00.38:863][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.19-17.00.38:951][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.19-17.00.38:987][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.19-17.00.39:042][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.19-17.00.39:098][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.19-17.00.39:154][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.19-17.00.39:209][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.19-17.00.39:210][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.19-17.00.39:639][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.19-17.00.39:714][  0]LogDerivedDataCache: Loaded boot cache 0.08s 50MB C:/Users/Nirvik Baruah/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.19-17.00.39:714][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nirvik Baruah/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.19-17.00.39:715][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nirvik Baruah/FOBISEA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.19-17.00.39:715][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.19-17.00.39:715][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nirvik Baruah/FOBISEA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.19-17.00.39:715][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.19-17.00.39:731][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.19-17.00.39:744][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nirvik Baruah/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.19-17.00.39:963][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.19-17.00.39:966][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.19-17.00.40:175][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.19-17.00.40:219][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.19-17.00.40:268][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.19-17.00.40:268][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.19-17.00.40:268][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.19-17.00.40:813][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: fobisea, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3779547873
+[2017.02.19-17.00.40:871][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.02.19-17.00.40:923][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.028060 seconds
+[2017.02.19-17.00.40:928][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.02.19-17.00.40:928][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.02.19-17.00.40:928][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.19-17.00.40:993][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.19-17.00.41:745][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.19-17.00.41:745][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.19-17.00.41:745][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.19-17.00.42:517][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.19-17.00.42:561][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.19-17.00.42:872][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.19-17.00.43:265][  0]SourceControl: Info Source control is disabled
+[2017.02.19-17.00.43:287][  0]SourceControl: Info Source control is disabled
+[2017.02.19-17.00.43:336][  0]SourceControl: Info Source control is disabled
+[2017.02.19-17.00.43:385][  0]SourceControl: Info Source control is disabled
+[2017.02.19-17.00.43:693][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.02.19-17.00.43:694][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.02.19-17.00.43:694][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2017.02.19-17.00.44:714][  0]LogEngine: Initializing Engine...
+[2017.02.19-17.00.44:714][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.02.19-17.00.44:951][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.19-17.00.44:961][  0]LogInit: XAudio2 using '227EQPH-14 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.19-17.00.44:973][  0]LogInit: FAudioDevice initialized.
+[2017.02.19-17.00.45:005][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Nirvik Baruah/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.19-17.00.45:022][  0]LogInit: Texture streaming: Enabled
+[2017.02.19-17.00.45:212][  0]LogInit: Transaction tracking system initialized
+[2017.02.19-17.00.45:568][  0]BlueprintLog: New page: Editor Load
+[2017.02.19-17.00.46:471][  0]LocalizationService: Info Localization service is disabled
+[2017.02.19-17.00.47:145][  0]LogConsoleResponse:Display: 
+[2017.02.19-17.00.47:280][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.19-17.00.47:280][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.19-17.00.47:464][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nirvik Baruah/FOBISEA/Content/' took 0.02s
+[2017.02.19-17.00.48:289][  0]SourceControl: Info Source control is disabled
+[2017.02.19-17.00.48:289][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.19-17.00.48:289][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.02.19-17.00.48:289][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.19-17.00.48:331][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.169ms to complete.
+[2017.02.19-17.00.48:331][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.041
+[2017.02.19-17.00.48:386][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.19-17.00.48:501][  0]LogCollectionManager: Loaded 0 collections in 0.001811 seconds
+[2017.02.19-17.00.48:579][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nirvik Baruah/FOBISEA/Saved/Collections/' took 0.01s
+[2017.02.19-17.00.48:579][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nirvik Baruah/FOBISEA/Content/Developers/NirvikBaruah/Collections/' took 0.01s
+[2017.02.19-17.00.48:579][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nirvik Baruah/FOBISEA/Content/Collections/' took 0.01s
+[2017.02.19-17.00.48:579][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.02.19-17.00.48:587][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2191 classes and 430 folders.
+[2017.02.19-17.00.48:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.19-17.00.48:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.19-17.00.48:631][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.02.19-17.00.48:694][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.19-17.00.48:739][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.02.19-17.00.48:809][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.19-17.00.48:813][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.19-17.00.48:879][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.02.19-17.00.48:880][  0]LogLoad: (Engine Initialization) Total time: 14.01 seconds
+[2017.02.19-17.00.48:880][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.02.19-17.00.48:880][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.02.19-17.00.48:889][  0]LogOcInput: OculusInput pre-init called
+[2017.02.19-17.00.48:907][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.19-17.00.49:042][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.02.19-17.00.49:191][  1]LogAssetRegistry: Asset discovery search completed in 8.3415 seconds
+[2017.02.19-17.00.49:191][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.02.19-17.00.49:191][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.02.19-17.00.53:557][438]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2017.02.19-17.01.15:051][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.01.15:084][759]LogSavePackage: Save=12.03ms
+[2017.02.19-17.01.15:084][759]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBPEB32AC674AAA69E505C8869A2BB1D712.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.01.15:086][759]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.01.22:799][617]LogAIModule: Creating AISystem for world MovementTesting
+[2017.02.19-17.01.22:868][617]Cmd: MAP LOAD FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Levels/MovementTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.19-17.01.22:869][617]LightingResults: New page: Lighting Build
+[2017.02.19-17.01.22:913][617]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.02.19-17.01.22:913][617]LoadErrors: New page: Loading map: MovementTesting.umap
+[2017.02.19-17.01.22:914][617]MapCheck: New page: Map Check
+[2017.02.19-17.01.22:914][617]LightingResults: New page: Lighting Build
+[2017.02.19-17.01.22:993][617]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.19-17.01.23:022][617]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.19-17.01.23:082][617]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.128ms to complete.
+[2017.02.19-17.01.23:083][617]LogFileHelpers: Loading map 'MovementTesting' took 0.214
+[2017.02.19-17.01.24:475][754]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.19-17.01.24:507][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.01.24:507][754]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.19-17.01.24:507][754]LogPlayLevel: [PlayLevel] Compiling entranceBP before play...
+[2017.02.19-17.01.24:604][754]LogPlayLevel: PlayLevel: Blueprint regeneration took 96 ms (1 blueprints)
+[2017.02.19-17.01.24:604][754]PIE: New page: PIE session: MovementTesting (Feb 19, 2017, 1:01:24 AM)
+[2017.02.19-17.01.24:604][754]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTesting
+[2017.02.19-17.01.24:608][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003750s)
+[2017.02.19-17.01.24:608][754]LogAIModule: Creating AISystem for world MovementTesting
+[2017.02.19-17.01.24:609][754]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2017.02.19-17.01.24:609][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTesting.MovementTesting to /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting (0.004631s)
+[2017.02.19-17.01.24:629][754]LogInit: XAudio2 using '227EQPH-14 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.19-17.01.24:633][754]LogInit: FAudioDevice initialized.
+[2017.02.19-17.01.24:684][754]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.02.19-17.01.24:688][754]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting up for play (max tick rate 0) at 2017.02.19-09.01.24
+[2017.02.19-17.01.24:688][754]LogWorld: Bringing up level for play took: 0.002872
+[2017.02.19-17.01.24:733][754]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.02.19-17.01.24:734][754]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MovementTesting 0.023
+[2017.02.19-17.01.24:734][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.01.27:475][ 77]LogBlueprintUserMessages: [entranceBP_C_170] Hello
+[2017.02.19-17.01.28:394][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.01.28:435][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.01.45:546][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.01.45:571][221]LogSavePackage: Save=11.72ms
+[2017.02.19-17.01.45:571][221]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBP386A0C5748E7405799FC50B915ECB938.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.01.45:574][221]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.01.48:693][564]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.19-17.01.48:709][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.01.48:709][564]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.19-17.01.48:709][564]LogPlayLevel: [PlayLevel] Compiling entranceBP before play...
+[2017.02.19-17.01.48:805][564]LogPlayLevel: PlayLevel: Blueprint regeneration took 95 ms (1 blueprints)
+[2017.02.19-17.01.48:805][564]PIE: New page: PIE session: MovementTesting (Feb 19, 2017, 1:01:48 AM)
+[2017.02.19-17.01.48:805][564]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTesting
+[2017.02.19-17.01.48:809][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003744s)
+[2017.02.19-17.01.48:810][564]LogAIModule: Creating AISystem for world MovementTesting
+[2017.02.19-17.01.48:810][564]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2017.02.19-17.01.48:810][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTesting.MovementTesting to /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting (0.004795s)
+[2017.02.19-17.01.48:830][564]LogInit: XAudio2 using '227EQPH-14 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.19-17.01.48:834][564]LogInit: FAudioDevice initialized.
+[2017.02.19-17.01.48:866][564]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.02.19-17.01.48:869][564]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting up for play (max tick rate 0) at 2017.02.19-09.01.48
+[2017.02.19-17.01.48:870][564]LogWorld: Bringing up level for play took: 0.003011
+[2017.02.19-17.01.48:871][564]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MovementTesting 0.16
+[2017.02.19-17.01.48:871][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.01.52:756][ 17]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.01.52:793][ 17]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.02.05:362][499]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:2175).
+[2017.02.19-17.04.16:626][ 63]LogEditorTransaction: Undo Add Node
+[2017.02.19-17.04.41:974][ 73]LogEditorTransaction: Undo Move Node
+[2017.02.19-17.04.42:436][125]LogEditorTransaction: Undo Promote To Variable
+[2017.02.19-17.05.07:952][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.05.07:987][182]LogSavePackage: Save=11.48ms
+[2017.02.19-17.05.07:987][182]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBP7A452C7141828639ECD3069C5E29F958.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.05.07:989][182]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.05.10:113][405]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.19-17.05.10:130][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.05.10:130][405]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.19-17.05.10:130][405]LogPlayLevel: [PlayLevel] Compiling entranceBP before play...
+[2017.02.19-17.05.10:135][405]LogBlueprint:Error: [Compiler entranceBP] Error This blueprint (self) is not a SceneComponent, therefore ' self ' must have a connection.
+[2017.02.19-17.05.10:268][405]LogBlueprint:Warning: [Compiler entranceBP] Warning [0275.39] Compile of entranceBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 136 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.05.10:269][405]LogBlueprint:Warning: [Compiler entranceBP] Warning [0275.40] Compile of entranceBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.05.10:269][405]LogBlueprint:Warning: [Compiler entranceBP] Warning [0275.40] Compile of entranceBP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.05.10:269][405]LogBlueprint:Warning: [Compiler entranceBP] Warning [0275.40] Compile of entranceBP failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.05.10:272][405]LogBlueprint:Warning: [Compiler entranceBP] Warning [0275.40] Compile of entranceBP failed. 1 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.05.10:272][405]LogBlueprint:Warning: [Compiler entranceBP] Warning [0275.40] Compile of entranceBP failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.05.10:286][405]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (1 blueprints)
+[2017.02.19-17.05.10:286][405]BlueprintLog: Info Blueprint entranceBP failed to compile
+[2017.02.19-17.05.15:231][841]BlueprintLog: New page: Compile entranceBP
+[2017.02.19-17.05.15:237][841]LogBlueprint:Error: [Compiler entranceBP] Error This blueprint (self) is not a SceneComponent, therefore ' self ' must have a connection.
+[2017.02.19-17.05.15:384][841]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' self ' must have a connection.
+[2017.02.19-17.05.15:385][841]LogBlueprint:Warning: [Compiler entranceBP] Warning [0280.51] Compile of entranceBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 152 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.07.03:673][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.07.03:698][803]LogSavePackage: Save=11.37ms
+[2017.02.19-17.07.03:698][803]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBPCF3532A54DF4FCC6CE96FB982E121B8F.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.07.03:700][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.07.05:466][990]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.19-17.07.05:482][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.07.05:482][990]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.19-17.07.05:482][990]LogPlayLevel: [PlayLevel] Compiling entranceBP before play...
+[2017.02.19-17.07.05:583][990]LogPlayLevel: PlayLevel: Blueprint regeneration took 100 ms (1 blueprints)
+[2017.02.19-17.07.05:583][990]PIE: New page: PIE session: MovementTesting (Feb 19, 2017, 1:07:05 AM)
+[2017.02.19-17.07.05:583][990]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTesting
+[2017.02.19-17.07.05:588][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004160s)
+[2017.02.19-17.07.05:588][990]LogAIModule: Creating AISystem for world MovementTesting
+[2017.02.19-17.07.05:589][990]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2017.02.19-17.07.05:589][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTesting.MovementTesting to /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting (0.005396s)
+[2017.02.19-17.07.05:609][990]LogInit: XAudio2 using '227EQPH-14 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.19-17.07.05:614][990]LogInit: FAudioDevice initialized.
+[2017.02.19-17.07.05:642][990]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.02.19-17.07.05:646][990]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting up for play (max tick rate 0) at 2017.02.19-09.07.05
+[2017.02.19-17.07.05:646][990]LogWorld: Bringing up level for play took: 0.003055
+[2017.02.19-17.07.05:647][990]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MovementTesting 0.936
+[2017.02.19-17.07.05:648][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.07.10:609][578]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.07.10:661][578]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.07.38:109][802]LogEditorTransaction: Undo Move Node
+[2017.02.19-17.07.38:648][864]LogEditorTransaction: Undo Create Pin Link
+[2017.02.19-17.07.39:178][924]LogEditorTransaction: Undo Move Node
+[2017.02.19-17.07.39:695][984]LogEditorTransaction: Undo Delete current selection
+[2017.02.19-17.07.40:199][ 41]LogEditorTransaction: Undo Add Node
+[2017.02.19-17.07.40:608][ 88]LogEditorTransaction: Undo Create Pin Link
+[2017.02.19-17.07.41:466][189]LogEditorTransaction: Undo Move Node
+[2017.02.19-17.07.41:817][229]LogEditorTransaction: Undo Delete current selection
+[2017.02.19-17.07.42:194][272]LogEditorTransaction: Undo Create Pin Link
+[2017.02.19-17.07.44:971][603]LogEditorTransaction: Undo Move Nodes
+[2017.02.19-17.07.53:843][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.07.53:869][663]LogSavePackage: Save=11.78ms
+[2017.02.19-17.07.53:869][663]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBP498C49AF49FBA00EDB0AC68455C33959.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.07.53:871][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.07.55:181][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.07.55:205][819]LogSavePackage: Save=11.17ms
+[2017.02.19-17.07.55:205][819]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBPE34C0B3C4B8761CFB5BFE18062A13735.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.07.55:206][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.07.59:496][329]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.19-17.07.59:515][329]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.07.59:515][329]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.19-17.07.59:515][329]LogPlayLevel: [PlayLevel] Compiling entranceBP before play...
+[2017.02.19-17.07.59:614][329]LogPlayLevel: PlayLevel: Blueprint regeneration took 98 ms (1 blueprints)
+[2017.02.19-17.07.59:614][329]PIE: New page: PIE session: MovementTesting (Feb 19, 2017, 1:07:59 AM)
+[2017.02.19-17.07.59:614][329]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTesting
+[2017.02.19-17.07.59:618][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003911s)
+[2017.02.19-17.07.59:618][329]LogAIModule: Creating AISystem for world MovementTesting
+[2017.02.19-17.07.59:619][329]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2017.02.19-17.07.59:619][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTesting.MovementTesting to /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting (0.005032s)
+[2017.02.19-17.07.59:639][329]LogInit: XAudio2 using '227EQPH-14 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.19-17.07.59:643][329]LogInit: FAudioDevice initialized.
+[2017.02.19-17.07.59:672][329]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.02.19-17.07.59:675][329]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting up for play (max tick rate 0) at 2017.02.19-09.07.59
+[2017.02.19-17.07.59:676][329]LogWorld: Bringing up level for play took: 0.003115
+[2017.02.19-17.07.59:677][329]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MovementTesting 0.966
+[2017.02.19-17.07.59:677][329]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.08.03:350][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.08.03:406][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.09.33:071][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.02.19-17.09.33:593][995]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_entranceBP_C_0' or package '/Engine/Transient'.
+[2017.02.19-17.09.33:593][995]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_entranceBP_C_1' or package '/Engine/Transient'.
+[2017.02.19-17.09.33:593][995]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Entrance' or package '/Game/Blueprints/puzzlepanel'.
+[2017.02.19-17.09.33:593][995]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_entranceBP_C_115' or package '/Engine/Transient'.
+[2017.02.19-17.09.33:593][995]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_entranceBP_C_114' or package '/Engine/Transient'.
+[2017.02.19-17.09.55:484][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.09.55:505][382]LogSavePackage: Save=19.73ms
+[2017.02.19-17.09.55:505][382]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBPE6CC91B74524F131C8B872A82C43A8FE.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.09.55:507][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.09.57:842][655]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.19-17.09.57:862][655]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.09.57:863][655]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.19-17.09.57:863][655]LogPlayLevel: [PlayLevel] Compiling entranceBP before play...
+[2017.02.19-17.09.57:868][655]LogBlueprint:Error: [Compiler entranceBP] Error This blueprint (self) is not a SceneComponent, therefore ' self ' must have a connection.
+[2017.02.19-17.09.58:217][655]LogBlueprint:Warning: [Compiler entranceBP] Warning [0563.34] Compile of entranceBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 352 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.09.58:217][655]LogBlueprint:Warning: [Compiler entranceBP] Warning [0563.34] Compile of entranceBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.09.58:217][655]LogBlueprint:Warning: [Compiler entranceBP] Warning [0563.34] Compile of entranceBP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.09.58:217][655]LogBlueprint:Warning: [Compiler entranceBP] Warning [0563.34] Compile of entranceBP failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.09.58:221][655]LogBlueprint:Warning: [Compiler entranceBP] Warning [0563.35] Compile of entranceBP failed. 1 Fatal Issue(s) 4 Warning(s) [in 3 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.09.58:221][655]LogBlueprint:Warning: [Compiler entranceBP] Warning [0563.35] Compile of entranceBP failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Blueprints/entranceBP.entranceBP)
+[2017.02.19-17.09.58:234][655]LogPlayLevel: PlayLevel: Blueprint regeneration took 371 ms (1 blueprints)
+[2017.02.19-17.09.58:234][655]BlueprintLog: Info Blueprint entranceBP failed to compile
+[2017.02.19-17.10.33:833][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.10.33:875][670]LogSavePackage: Save=20.99ms
+[2017.02.19-17.10.33:875][670]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBPD86EE9EC4387EA174E97CAB5DD371928.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.10.33:877][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.10.35:780][897]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.19-17.10.35:796][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.10.35:796][897]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.19-17.10.35:796][897]LogPlayLevel: [PlayLevel] Compiling entranceBP before play...
+[2017.02.19-17.10.35:902][897]LogPlayLevel: PlayLevel: Blueprint regeneration took 105 ms (1 blueprints)
+[2017.02.19-17.10.35:902][897]PIE: New page: PIE session: MovementTesting (Feb 19, 2017, 1:10:35 AM)
+[2017.02.19-17.10.35:902][897]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTesting
+[2017.02.19-17.10.35:906][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003922s)
+[2017.02.19-17.10.35:907][897]LogAIModule: Creating AISystem for world MovementTesting
+[2017.02.19-17.10.35:907][897]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2017.02.19-17.10.35:907][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTesting.MovementTesting to /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting (0.005041s)
+[2017.02.19-17.10.35:927][897]LogInit: XAudio2 using '227EQPH-14 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.19-17.10.35:931][897]LogInit: FAudioDevice initialized.
+[2017.02.19-17.10.35:961][897]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.02.19-17.10.35:965][897]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting up for play (max tick rate 0) at 2017.02.19-09.10.35
+[2017.02.19-17.10.35:965][897]LogWorld: Bringing up level for play took: 0.003051
+[2017.02.19-17.10.35:966][897]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MovementTesting -0.745
+[2017.02.19-17.10.35:966][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.10.39:035][256]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.02.19-17.10.39:035][256]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	puzzlepanel_C /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting:PersistentLevel.Panel
+	Function /Game/Blueprints/puzzlepanel.puzzlepanel_C:ExecuteUbergraph_puzzlepanel:01B4
+[2017.02.19-17.10.39:753][342]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.10.39:806][342]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.10.40:007][344]Cmd: SELECT NONE
+[2017.02.19-17.11.55:317][790]LogEditorTransaction: Undo Move Node
+[2017.02.19-17.11.55:557][816]LogEditorTransaction: Undo Delete current selection
+[2017.02.19-17.11.57:421][  4]Cmd: TRANSACTION UNDO
+[2017.02.19-17.11.57:421][  4]LogEditorTransaction: Undo Add Node
+[2017.02.19-17.13.14:873][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.13.14:915][163]LogSavePackage: Save=21.68ms
+[2017.02.19-17.13.14:915][163]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBPD885B5864081B3423F0FCC91B3386039.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.13.14:917][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.13.16:835][356]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.19-17.13.16:851][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.13.16:851][356]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.19-17.13.16:851][356]LogPlayLevel: [PlayLevel] Compiling entranceBP before play...
+[2017.02.19-17.13.16:941][356]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
+[2017.02.19-17.13.16:941][356]PIE: New page: PIE session: MovementTesting (Feb 19, 2017, 1:13:16 AM)
+[2017.02.19-17.13.16:941][356]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTesting
+[2017.02.19-17.13.16:945][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003855s)
+[2017.02.19-17.13.16:946][356]LogAIModule: Creating AISystem for world MovementTesting
+[2017.02.19-17.13.16:946][356]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2017.02.19-17.13.16:946][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTesting.MovementTesting to /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting (0.004957s)
+[2017.02.19-17.13.16:966][356]LogInit: XAudio2 using '227EQPH-14 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.19-17.13.16:970][356]LogInit: FAudioDevice initialized.
+[2017.02.19-17.13.17:000][356]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.02.19-17.13.17:003][356]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting up for play (max tick rate 0) at 2017.02.19-09.13.17
+[2017.02.19-17.13.17:004][356]LogWorld: Bringing up level for play took: 0.003050
+[2017.02.19-17.13.17:005][356]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MovementTesting 0.294
+[2017.02.19-17.13.17:005][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.13.19:948][702]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.02.19-17.13.19:948][702]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	puzzlepanel_C /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting:PersistentLevel.Panel
+	Function /Game/Blueprints/puzzlepanel.puzzlepanel_C:ExecuteUbergraph_puzzlepanel:01B4
+[2017.02.19-17.13.20:916][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.13.20:951][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.14.16:097][342]LogSavePackage: Save=111.02ms
+[2017.02.19-17.14.16:097][342]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/MovementTesting_Auto1499D525F418142CDD833088EEBCB6C1F.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/Autosaves/Game/Levels/MovementTesting_Auto1.umap'
+[2017.02.19-17.14.16:098][342]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/Autosaves/Game/Levels/MovementTesting_Auto1.umap
+[2017.02.19-17.14.16:101][342]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MovementTesting' took 0.150
+[2017.02.19-17.14.16:102][342]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2017.02.19-17.14.16:104][342]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/entranceBP] ([1] browsable assets)...
+[2017.02.19-17.14.16:121][342]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/entranceBP.entranceBP]
+[2017.02.19-17.14.16:121][342]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/entranceBP]
+[2017.02.19-17.14.16:121][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/Autosaves/Game/Blueprints/entranceBP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.02.19-17.14.16:154][342]LogSavePackage: Save=20.08ms
+[2017.02.19-17.14.16:154][342]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBP_Auto191A3A51D411B89082AE1A3967CDDA739.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/Autosaves/Game/Blueprints/entranceBP_Auto1.uasset'
+[2017.02.19-17.14.16:155][342]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/Autosaves/Game/Blueprints/entranceBP_Auto1.uasset
+[2017.02.19-17.14.16:155][342]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/puzzlepanel] ([1] browsable assets)...
+[2017.02.19-17.14.16:172][342]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/puzzlepanel.puzzlepanel]
+[2017.02.19-17.14.16:172][342]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/puzzlepanel]
+[2017.02.19-17.14.16:172][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/puzzlepanel" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/Autosaves/Game/Blueprints/puzzlepanel_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.02.19-17.14.16:210][342]LogSavePackage: Save=21.55ms
+[2017.02.19-17.14.16:210][342]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/puzzlepanel_Auto1676100C54C31211520093E8AD83A25D5.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/Autosaves/Game/Blueprints/puzzlepanel_Auto1.uasset'
+[2017.02.19-17.14.16:211][342]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/Autosaves/Game/Blueprints/puzzlepanel_Auto1.uasset
+[2017.02.19-17.14.16:211][342]LogFileHelpers: Auto-saving content packages took 0.108
+[2017.02.19-17.15.07:626][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.15.07:659][489]LogSavePackage: Save=20.63ms
+[2017.02.19-17.15.07:659][489]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBPC91992364FFA36FDD9123B8C0DA58430.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.15.07:663][489]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.15.09:125][663]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.19-17.15.09:141][663]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.15.09:141][663]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.19-17.15.09:141][663]LogPlayLevel: [PlayLevel] Compiling entranceBP before play...
+[2017.02.19-17.15.09:245][663]LogPlayLevel: PlayLevel: Blueprint regeneration took 104 ms (1 blueprints)
+[2017.02.19-17.15.09:246][663]PIE: New page: PIE session: MovementTesting (Feb 19, 2017, 1:15:09 AM)
+[2017.02.19-17.15.09:246][663]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTesting
+[2017.02.19-17.15.09:250][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003940s)
+[2017.02.19-17.15.09:250][663]LogAIModule: Creating AISystem for world MovementTesting
+[2017.02.19-17.15.09:251][663]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2017.02.19-17.15.09:251][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTesting.MovementTesting to /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting (0.005121s)
+[2017.02.19-17.15.09:271][663]LogInit: XAudio2 using '227EQPH-14 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.19-17.15.09:275][663]LogInit: FAudioDevice initialized.
+[2017.02.19-17.15.09:305][663]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.02.19-17.15.09:308][663]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting up for play (max tick rate 0) at 2017.02.19-09.15.09
+[2017.02.19-17.15.09:309][663]LogWorld: Bringing up level for play took: 0.003076
+[2017.02.19-17.15.09:310][663]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MovementTesting 0.599
+[2017.02.19-17.15.09:310][663]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.15.11:253][889]LogBlueprintUserMessages: [Puzzle_UI_C_6] wrong pass lmao gl with no oxygen
+[2017.02.19-17.15.13:754][189]LogBlueprintUserMessages: [Puzzle_UI_C_7] wrong pass lmao gl with no oxygen
+[2017.02.19-17.15.16:062][466]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors of length 0!
+[2017.02.19-17.15.16:062][466]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	puzzlepanel_C /Game/Levels/UEDPIE_0_MovementTesting.MovementTesting:PersistentLevel.Panel
+	Function /Game/Blueprints/puzzlepanel.puzzlepanel_C:ExecuteUbergraph_puzzlepanel:01B4
+[2017.02.19-17.15.17:255][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.15.17:309][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting' with GeneratedClass '/Game/Levels/MovementTesting.MovementTesting_C' with ClassGeneratedBy '/Game/Levels/MovementTesting.MovementTesting:PersistentLevel.MovementTesting'
+[2017.02.19-17.15.19:774][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/entranceBP" FILE="../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset" SILENT=true
+[2017.02.19-17.15.19:809][872]LogSavePackage: Save=20.98ms
+[2017.02.19-17.15.19:809][872]LogSavePackage: Moving '../../../../../../Users/Nirvik Baruah/FOBISEA/Saved/entranceBPF98140804FB3925380659981A3DEABB7.tmp' to '../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset'
+[2017.02.19-17.15.19:811][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nirvik Baruah/FOBISEA/Content/Blueprints/entranceBP.uasset
+[2017.02.19-17.15.23:229][202]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.02.19-17.15.23:429][202]LogCrashTracker: 
+
+
+[2017.02.19-17.15.23:429][202]LogCrashTracker: 
+
+
+[2017.02.19-17.15.23:429][202]LogWindows:Error: === Critical error: ===
+[2017.02.19-17.15.23:429][202]LogWindows:Error: 
+[2017.02.19-17.15.23:429][202]LogWindows:Error: Assertion failed: Class != NULL [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyEditor\SPropertyEditorAsset.cpp] [Line: 965] 
+[2017.02.19-17.15.23:429][202]LogWindows:Error: 
+[2017.02.19-17.15.23:429][202]LogWindows:Error: 
+[2017.02.19-17.15.23:429][202]LogWindows:Error: 
+[2017.02.19-17.15.23:429][202]LogWindows:Error: KERNELBASE.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-Core.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-Core.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-Core.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-Slate.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-PropertyEditor.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-Slate.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-Slate.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-Slate.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:429][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-Slate.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-Slate.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-Slate.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: UE4Editor-SlateCore.dll
+[2017.02.19-17.15.23:430][202]LogWindows:Error: 
+[2017.02.19-17.15.23:458][202]LogExit: Executing StaticShutdownAfterError
+[2017.02.19-17.15.23:462][202]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.02.19-17.15.23:463][202]Log file closed, 02/19/17 09:15:23
